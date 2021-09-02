@@ -67,6 +67,7 @@ app.get('/api/candidate/:id', (req, res) => {
   });
 });
 
+
 // Delete a candidate
 // db.query(`DELETE FROM candidates WHERE id = ?`, 1, (err, result) => {
 //     if (err) {
